@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Use Cases]" parallel="methods">
+  <test name="chromeTest(failed)" parallel="methods">
+    <classes>
+      <class name="Project.SeleniumAll.FKTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="firtsTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Project.SeleniumAll.FKTest -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Use Cases] -->

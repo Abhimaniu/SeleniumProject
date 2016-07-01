@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Use Cases" duration-ms="23498" started-at="2016-06-30T12:52:39Z" finished-at="2016-06-30T12:53:02Z">
+    <groups>
+    </groups>
+    <test name="firefoxTest" duration-ms="22717" started-at="2016-06-30T12:52:39Z" finished-at="2016-06-30T12:53:01Z">
+      <class name="Project.SeleniumAll.FKTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="setup" is-config="true" duration-ms="7797" started-at="2016-06-30T18:22:39Z" finished-at="2016-06-30T18:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="firtsTest(java.lang.String, java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="firtsTest" duration-ms="4704" started-at="2016-06-30T18:22:47Z" data-provider="item" finished-at="2016-06-30T18:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[perfumes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firtsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="tearDown" is-config="true" duration-ms="907" started-at="2016-06-30T18:22:52Z" finished-at="2016-06-30T18:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="setup" is-config="true" duration-ms="7445" started-at="2016-06-30T18:22:53Z" finished-at="2016-06-30T18:23:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="secondTest" duration-ms="275" started-at="2016-06-30T18:23:00Z" finished-at="2016-06-30T18:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="tearDown" is-config="true" duration-ms="794" started-at="2016-06-30T18:23:01Z" finished-at="2016-06-30T18:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Project.SeleniumAll.FKTest -->
+    </test> <!-- firefoxTest -->
+    <test name="chromeTest" duration-ms="23498" started-at="2016-06-30T12:52:39Z" finished-at="2016-06-30T12:53:02Z">
+      <class name="Project.SeleniumAll.FKTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="setup" is-config="true" duration-ms="7063" started-at="2016-06-30T18:22:39Z" finished-at="2016-06-30T18:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="firtsTest(java.lang.String, java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="firtsTest" duration-ms="4663" started-at="2016-06-30T18:22:47Z" data-provider="item" finished-at="2016-06-30T18:22:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[perfumes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firtsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="tearDown" is-config="true" duration-ms="1687" started-at="2016-06-30T18:22:51Z" finished-at="2016-06-30T18:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="setup" is-config="true" duration-ms="4060" started-at="2016-06-30T18:22:53Z" finished-at="2016-06-30T18:22:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="secondTest" duration-ms="4188" started-at="2016-06-30T18:22:57Z" finished-at="2016-06-30T18:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="tearDown" is-config="true" duration-ms="1041" started-at="2016-06-30T18:23:01Z" finished-at="2016-06-30T18:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Project.SeleniumAll.FKTest -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Use Cases -->
+</testng-results>
