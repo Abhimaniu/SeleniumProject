@@ -1,7 +1,7 @@
 <suite name="Use Cases" parallel="tests" thread-count="2">
     <tests>
         <test name="chromeTest">
-             <parameter name="browser" value="chrome" />
+             <parameter name="browser" value="firefox" />
             <classes>
                 <class name="Project.SeleniumAll.FKTest">
                 </class>

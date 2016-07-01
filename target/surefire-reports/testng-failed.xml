@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" verbose="0" name="Failed suite [Use Cases]" parallel="methods">
-  <test name="chromeTest(failed)" parallel="methods">
+<suite thread-count="2" verbose="0" name="Failed suite [Use Cases]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="chromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="Project.SeleniumAll.FKTest">
         <methods>
+          <include name="secondTest"/>
           <include name="setup"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
           <include name="tearDown"/>
           <include name="firtsTest" invocation-numbers="0"/>
         </methods>

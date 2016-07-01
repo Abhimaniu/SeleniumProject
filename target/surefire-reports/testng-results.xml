@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="1" failed="1" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Use Cases" duration-ms="23498" started-at="2016-06-30T12:52:39Z" finished-at="2016-06-30T12:53:02Z">
+  <suite name="Use Cases" duration-ms="63733" started-at="2016-07-01T12:09:56Z" finished-at="2016-07-01T12:10:59Z">
     <groups>
     </groups>
-    <test name="firefoxTest" duration-ms="22717" started-at="2016-06-30T12:52:39Z" finished-at="2016-06-30T12:53:01Z">
+    <test name="firefoxTest" duration-ms="43032" started-at="2016-07-01T12:09:56Z" finished-at="2016-07-01T12:10:39Z">
       <class name="Project.SeleniumAll.FKTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="setup" is-config="true" duration-ms="7797" started-at="2016-06-30T18:22:39Z" finished-at="2016-06-30T18:22:47Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@1337ae]" name="setup" is-config="true" duration-ms="20484" started-at="2016-07-01T17:39:57Z" finished-at="2016-07-01T17:40:17Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="firtsTest(java.lang.String, java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="firtsTest" duration-ms="4704" started-at="2016-06-30T18:22:47Z" data-provider="item" finished-at="2016-06-30T18:22:52Z">
+        <test-method status="PASS" signature="firtsTest(java.lang.String, java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@1337ae]" name="firtsTest" duration-ms="9370" started-at="2016-07-01T17:40:17Z" data-provider="item" finished-at="2016-07-01T17:40:27Z">
           <params>
             <param index="0">
               <value>
@@ -34,11 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firtsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="tearDown" is-config="true" duration-ms="907" started-at="2016-06-30T18:22:52Z" finished-at="2016-06-30T18:22:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@1337ae]" name="tearDown" is-config="true" duration-ms="1110" started-at="2016-07-01T17:40:27Z" finished-at="2016-07-01T17:40:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="setup" is-config="true" duration-ms="7445" started-at="2016-06-30T18:22:53Z" finished-at="2016-06-30T18:23:00Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@1337ae]" name="setup" is-config="true" duration-ms="9935" started-at="2016-07-01T17:40:28Z" finished-at="2016-07-01T17:40:38Z">
           <params>
             <param index="0">
               <value>
@@ -49,19 +49,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="secondTest()[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="secondTest" duration-ms="275" started-at="2016-06-30T18:23:00Z" finished-at="2016-06-30T18:23:01Z">
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:Project.SeleniumAll.FKTest@1337ae]" name="secondTest" duration-ms="355" started-at="2016-07-01T17:40:38Z" finished-at="2016-07-01T17:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@f8908f6]" name="tearDown" is-config="true" duration-ms="794" started-at="2016-06-30T18:23:01Z" finished-at="2016-06-30T18:23:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@1337ae]" name="tearDown" is-config="true" duration-ms="444" started-at="2016-07-01T17:40:38Z" finished-at="2016-07-01T17:40:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Project.SeleniumAll.FKTest -->
     </test> <!-- firefoxTest -->
-    <test name="chromeTest" duration-ms="23498" started-at="2016-06-30T12:52:39Z" finished-at="2016-06-30T12:53:02Z">
+    <test name="chromeTest" duration-ms="63733" started-at="2016-07-01T12:09:56Z" finished-at="2016-07-01T12:10:59Z">
       <class name="Project.SeleniumAll.FKTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="setup" is-config="true" duration-ms="7063" started-at="2016-06-30T18:22:39Z" finished-at="2016-06-30T18:22:47Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@f290d]" name="setup" is-config="true" duration-ms="62400" started-at="2016-07-01T17:39:57Z" finished-at="2016-07-01T17:40:59Z">
           <params>
             <param index="0">
               <value>
@@ -72,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="firtsTest(java.lang.String, java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="firtsTest" duration-ms="4663" started-at="2016-06-30T18:22:47Z" data-provider="item" finished-at="2016-06-30T18:22:51Z">
+        <test-method status="FAIL" signature="firtsTest(java.lang.String, java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@f290d]" name="firtsTest" duration-ms="1" started-at="2016-07-01T17:40:59Z" data-provider="item" finished-at="2016-07-01T17:40:59Z">
           <params>
             <param index="0">
               <value>
@@ -85,32 +85,81 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Project.SeleniumAll.FKTest.firtsTest(FKTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firtsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="tearDown" is-config="true" duration-ms="1687" started-at="2016-06-30T18:22:51Z" finished-at="2016-06-30T18:22:53Z">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@f290d]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-07-01T17:40:59Z" finished-at="2016-07-01T17:40:59Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Project.SeleniumAll.FKTest.tearDown(FKTest.java:153)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="setup" is-config="true" duration-ms="4060" started-at="2016-06-30T18:22:53Z" finished-at="2016-06-30T18:22:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:Project.SeleniumAll.FKTest@f290d]" name="setup" is-config="true" duration-ms="0" started-at="2016-07-01T17:40:59Z" finished-at="2016-07-01T17:40:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="secondTest()[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="secondTest" duration-ms="4188" started-at="2016-06-30T18:22:57Z" finished-at="2016-06-30T18:23:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- secondTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@e3cee7b]" name="tearDown" is-config="true" duration-ms="1041" started-at="2016-06-30T18:23:01Z" finished-at="2016-06-30T18:23:02Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Project.SeleniumAll.FKTest@f290d]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-07-01T17:40:59Z" finished-at="2016-07-01T17:40:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="secondTest()[pri:0, instance:Project.SeleniumAll.FKTest@f290d]" name="secondTest" duration-ms="0" started-at="2016-07-01T17:40:59Z" finished-at="2016-07-01T17:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
       </class> <!-- Project.SeleniumAll.FKTest -->
     </test> <!-- chromeTest -->
   </suite> <!-- Use Cases -->

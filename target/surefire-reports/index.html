@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Use_Cases">
-              <span class="suite-name border-passed">Use Cases</span>
+              <span class="suite-name border-failed">Use Cases</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,  1 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Use_Cases" class="hide-methods failed suite-Use_Cases"> (hide)</a> <!-- hide-methods failed suite-Use_Cases -->
+                      <a href="#" panel-name="suite-Use_Cases" class="show-methods failed suite-Use_Cases"> (show)</a> <!-- show-methods failed suite-Use_Cases -->
+                    </span>
+                    <div class="method-list-content failed suite-Use_Cases">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Use_Cases" title="Project.SeleniumAll.FKTest" hash-for-method="firtsTest(Hi, perfumes)">firtsTest(Hi, perfumes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Use_Cases -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Use_Cases" class="hide-methods skipped suite-Use_Cases"> (hide)</a> <!-- hide-methods skipped suite-Use_Cases -->
+                      <a href="#" panel-name="suite-Use_Cases" class="show-methods skipped suite-Use_Cases"> (show)</a> <!-- show-methods skipped suite-Use_Cases -->
+                    </span>
+                    <div class="method-list-content skipped suite-Use_Cases">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Use_Cases" title="Project.SeleniumAll.FKTest" hash-for-method="secondTest">secondTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Use_Cases -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,16 +130,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Use_Cases" title="Project.SeleniumAll.FKTest" hash-for-method="firtsTest(Hi, perfumes)">firtsTest(Hi, perfumes)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Use_Cases" title="Project.SeleniumAll.FKTest" hash-for-method="firtsTest(Hi, perfumes)">firtsTest(Hi, perfumes)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Use_Cases" title="Project.SeleniumAll.FKTest" hash-for-method="secondTest">secondTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -131,6 +149,67 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Use_Cases" class="panel Use_Cases">
+          <div class="suite-Use_Cases-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Project.SeleniumAll.FKTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="firtsTest(Hi, perfumes)">
+                  </a> <!-- firtsTest(Hi, perfumes) -->
+                  <span class="method-name">firtsTest</span>
+                  <span class="parameters">(Hi, perfumes)</span>
+                  <div class="stack-trace"><b>"java.lang.NullPointerException
+	at Project.SeleniumAll.FKTest.firtsTest(FKTest.java:66)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames<br/> java.lang.NullPointerException
+	at Project.SeleniumAll.FKTest.firtsTest(FKTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+"</b><br>Project.SeleniumAll.FKTest.firtsTest(FKTest.java:66)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.access$000(SuiteRunner.java:37)<br>org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)<br>org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br>java.util.concurrent.FutureTask.run(Unknown Source)<br>java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br>java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br>java.lang.Thread.run(Unknown Source)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Use_Cases-class-failed -->
+          <div class="suite-Use_Cases-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Project.SeleniumAll.FKTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondTest">
+                  </a> <!-- secondTest -->
+                  <span class="method-name">secondTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Use_Cases-class-skipped -->
           <div class="suite-Use_Cases-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -143,21 +222,6 @@
                   </a> <!-- firtsTest(Hi, perfumes) -->
                   <span class="method-name">firtsTest</span>
                   <span class="parameters">(Hi, perfumes)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="firtsTest(Hi, perfumes)">
-                  </a> <!-- firtsTest(Hi, perfumes) -->
-                  <span class="method-name">firtsTest</span>
-                  <span class="parameters">(Hi, perfumes)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="secondTest">
-                  </a> <!-- secondTest -->
-                  <span class="method-name">secondTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -235,24 +299,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'firtsTest')
 data.setCell(0, 2, 'Project.SeleniumAll.FKTest')
-data.setCell(0, 3, 4704);
+data.setCell(0, 3, 9370);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'firtsTest')
+data.setCell(1, 1, 'secondTest')
 data.setCell(1, 2, 'Project.SeleniumAll.FKTest')
-data.setCell(1, 3, 4663);
+data.setCell(1, 3, 355);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'secondTest')
+data.setCell(2, 1, 'firtsTest')
 data.setCell(2, 2, 'Project.SeleniumAll.FKTest')
-data.setCell(2, 3, 4188);
+data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'secondTest')
 data.setCell(3, 2, 'Project.SeleniumAll.FKTest')
-data.setCell(3, 3, 275);
+data.setCell(3, 3, 0);
 window.suiteTableData['Use_Cases']= { tableData: data, tableDiv: 'times-div-Use_Cases'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Use_Cases">
               </div> <!-- times-div-Use_Cases -->
             </div> <!-- times-div -->
@@ -289,44 +353,40 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">firtsTest(Hi, perfumes)</span>
-                <span class="method-start">7063 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">firtsTest(Hi, perfumes)</span>
-                <span class="method-start">7797 ms</span>
+                <span class="method-start">20484 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11728 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">12501 ms</span>
+                <span class="method-start">29856 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(firefox)</span>
-                <span class="method-start">13409 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">13416 ms</span>
+                <span class="method-start">30967 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">secondTest</span>
-                <span class="method-start">17476 ms</span>
+                <span class="method-start">40902 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">firtsTest(Hi, perfumes)</span>
+                <span class="method-start">62400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62402 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">secondTest</span>
-                <span class="method-start">20854 ms</span>
+                <span class="method-start">62403 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">21129 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">21664 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
